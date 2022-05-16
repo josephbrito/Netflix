@@ -8,5 +8,3 @@
 - Typescript
 - styled-components
 - react-icons
-
-#### Responsividade sendo trabalhada ... 🚧
