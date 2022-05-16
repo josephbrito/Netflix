@@ -1,12 +1,10 @@
 import styled from "styled-components";
 interface Props {
-  area: string;
   direction: string;
 }
 
 export const Container = styled.div<Props>`
-  grid-area: ${(props) => props.area};
-  height: 65vh;
+  min-height: 65vh;
   background-color: var(--black);
   display: flex;
   align-items: center;
@@ -22,8 +20,15 @@ export const Container = styled.div<Props>`
     flex-wrap: wrap;
   }
 
-  > div img {
+  > .image {
     height: 90%;
+    display: flex;
+    justify-content: center;
+  }
+
+  > .image img {
+    height: 100%;
+    width: 60%;
   }
 
   > .title {
@@ -36,10 +41,20 @@ export const Container = styled.div<Props>`
     font-size: 1.5rem;
     width: 500px;
     flex-wrap: wrap;
+
+    @media (max-width: 640px) {
+      font-size: 1.3rem;
+      text-align: center;
+    }
   }
 
   > .title div h1 {
     font-size: 2.78rem;
     margin-bottom: 15px;
+
+    @media (max-width: 640px) {
+      font-size: 1.6rem;
+      text-align: center;
+    }
   }
 `;

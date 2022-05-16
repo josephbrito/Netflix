@@ -1,5 +1,7 @@
 # Clone Netflix
 
+<a href="https://netflix-jyajtpic2-josephbrito.vercel.app">Deploy</a>
+
 ### Techs:
 
 - React

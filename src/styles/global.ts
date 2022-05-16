@@ -10,13 +10,14 @@ export const GlobalStyle = createGlobalStyle`
 
     html, body, #root {
         height:100%;
+        /* overflow-x: ; */
     }
 
     :root {
         --red:#E50914;
+        --red-hov: #f40612;
         --text: #ffffff;
         --gray: #444;
-        --red-hov: #f40612;
         --black: #000;
         --border:#222;
         --qa:#303030; 

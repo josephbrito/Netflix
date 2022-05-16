@@ -13,6 +13,10 @@ export const Container = styled.header`
   > div img {
     height: 100%;
     width: 150px;
+
+    @media (max-width: 640px) {
+      width: 100px;
+    }
   }
 `;
 
@@ -24,6 +28,7 @@ export const Buttons = styled.div`
     background: none;
     color: var(--text);
     padding: 5px 10px;
+    border: 1px solid #fff;
   }
 
   > select option {
@@ -37,6 +42,10 @@ export const Button = styled.button`
   background: var(--red);
   border: none;
   padding: 10px 0;
-  border-radius: 6px;
+  border-radius: 4px;
   cursor: pointer;
+
+  @media (max-width: 640px) {
+    width: 55px;
+  }
 `;

@@ -22,12 +22,29 @@ export const Content = styled.div`
 
   > h3 {
     font-size: 1.5rem;
+    @media (max-width: 640px) {
+      font-size: 1.2rem;
+      text-align: center;
+    }
   }
 
   > h1 {
     font-size: 3rem;
     width: 650px;
     text-align: center;
+
+    @media (max-width: 640px) {
+      font-size: 2.7rem;
+      width: 75%;
+      text-align: center;
+    }
+  }
+
+  > h2 {
+    @media (max-width: 575px) {
+      font-size: 1.6rem;
+      text-align: center;
+    }
   }
 `;
 
@@ -43,6 +60,13 @@ export const Button = styled.button`
   align-items: center;
   justify-content: center;
   cursor: pointer;
+
+  @media (max-width: 640px) {
+    font-size: 1.2rem;
+    width: 70%;
+    height: 50px;
+    text-align: center;
+  }
 
   &:hover {
     background: var(--red-hov);

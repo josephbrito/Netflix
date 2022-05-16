@@ -5,7 +5,6 @@ import { Container } from "./styles";
 interface Props {
   title: string;
   image: string;
-  area: string;
   content: string;
   direction: string;
 }
@@ -13,12 +12,11 @@ interface Props {
 const Section: React.FC<Props> = ({
   title,
   image,
-  area,
   content,
   direction,
 }: Props) => {
   return (
-    <Container area={area} direction={direction}>
+    <Container direction={direction}>
       <div className="title">
         <div>
           <h1>{title}</h1>
@@ -26,7 +24,7 @@ const Section: React.FC<Props> = ({
         </div>
       </div>
 
-      <div>
+      <div className="image">
         <img src={image} />
       </div>
     </Container>

@@ -11,4 +11,9 @@ export const Container = styled.div`
   margin: 7px 0;
   font-size: 1.5rem;
   cursor: pointer;
+
+  @media (max-width: 640px) {
+    font-size: 1rem;
+    width: 58%;
+  }
 `;
