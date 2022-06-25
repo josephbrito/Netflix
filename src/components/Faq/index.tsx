@@ -13,7 +13,7 @@ const Faq: React.FC = () => {
       <h1>Perguntas frequentes</h1>
       <div>
         <Question question="O que é a Netflix?" />
-        <Question question="Qaunto custa a Netflix?" />
+        <Question question="Quanto custa a Netflix?" />
         <Question question="Onde posso assistir?" />
         <Question question="Como faço pra cancelar?" />
         <Question question="O que eu posso assistir na Netflix?" />
