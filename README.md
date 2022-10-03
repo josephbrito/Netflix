@@ -1,6 +1,6 @@
 # Clone Netflix
 
-<a href="https://netflix-51b1e6doi-josephbrito.vercel.app/">Deploy</a>
+<a href="https://netflix-o573f9iow-josephbrito.vercel.app/">Deploy</a>
 
 ### Techs:
 
